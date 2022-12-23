@@ -36,10 +36,11 @@
 
   .cover {
     flex: 50%;
-    background-color: red;
+    background-color: #8accc4;
     justify-content: center;
     align-items: center;
     display: flex;  
+    flex-direction: column;
   }
 
   /* Responsive Styles */
@@ -74,7 +75,7 @@
   .audio-book {
     flex-direction: column;
     flex: 50%;
-    background-color: DodgerBlue;
+    background-color: #8accc4;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -90,12 +91,20 @@
     padding: 1em;
   }
 
+
+
   .carousel-inner > .item > img{ margin: auto; width:100% }
 </style>
 
-<div class="flex-container" role="main">
-  <div class="cover">
 
+
+<div class="flex-container" role="main">
+
+  <div class="cover">
+    <h1 class="display-6">
+      The Easter gift
+      <small class="text-muted">By Kathy Cain</small>
+    </h1>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
