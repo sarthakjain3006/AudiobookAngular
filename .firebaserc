@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "audiobook-site": {
+      "hosting": {
+        "AudioBook": [
+          "audiobook-site"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "audiobook-site"
+  }
+}
